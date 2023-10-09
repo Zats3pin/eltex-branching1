@@ -5,6 +5,6 @@ public class Main {
         final var scanner = new Scanner(System.in);
         System.out.print("Представтесь:");
         final var name = scanner.next();
-        System.out.println("Привет, " + name);
+        System.out.printf("Привет, %s%n", name);
     }
 }
